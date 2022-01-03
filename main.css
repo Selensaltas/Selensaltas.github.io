@@ -223,7 +223,8 @@ ul {
 
 
 #freecodecamp {
-  background: #000000;
+  background: #000080;
+  color: #ffffff;
 }
 
 #freecodecamp:hover {
@@ -232,11 +233,11 @@ ul {
   border-radius: 2px;
 }
 
-#facebook {
-  background: #4868ad;
+#github {
+  background: #000000;
 }
 
-#facebook:hover {
+#github:hover {
   padding-left: 20px;
   margin-left: -20px;
   border-radius: 2px;
@@ -255,6 +256,7 @@ ul {
 #linkedin {
   background: #0077ba;
 }
+
 
 #linkedin:hover {
   padding-left: 20px;
