@@ -177,6 +177,12 @@ ul {
   font-size: 150%;
 }
 
+#titlep {
+  font-family: Helvetica;
+  font-size: 100%;
+  font-weight: 300;
+}
+
 #social-menu-primary {
   display: inline-block;
   float: right;
