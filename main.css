@@ -373,6 +373,10 @@ ul {
   opacity: 0.30;
 }
 
+#htmlEmail:hover .project-title {
+  opacity: 1;
+}
+
 #product-landing-page:hover .project-title {
   opacity: 1;
 }
