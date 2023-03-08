@@ -1,19 +1,22 @@
 html {
-  margin: 0px;
-  padding: 0px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 #wrapper {
   background-color: #080808;
+  margin: 0;
+  padding: 0;
 }
 
 #header {
-  width: 100%;
+  width: 100vw;
   height: 20vh;
   background-color: #080808;
   left: 0;
@@ -47,16 +50,10 @@ a {
   }
 }
 
-.nav-bar {
-  width: 100%;
-  float: right;
-  height: 20vh;
-}
-
 
 .navbar {
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  float: right;
 }
 
 
@@ -70,12 +67,6 @@ a {
   font-family: Helvetica;
   opacity: 0.75;
   text-decoration: none;
-}
-
-@media only screen and (max-width: 600px) {
-  .nav-a {
-    font-size: 140%;
-  }
 }
 
 .nav-a:hover {
@@ -108,13 +99,12 @@ ul {
 
 @media screen and (max-width:600px) {
   ul {
-    margin-top: 35%;
-    padding-left: 0px;
+    margin-top: 15vh;
   }
 }
 
 #welcome {
-  width: 100%;
+  width: 100vw;
   margin-top: -20vh;
   background-color: #008080;
   height: 100vh;
@@ -122,7 +112,7 @@ ul {
 
 @media screen and (max-width:600px) {
   #welcome {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
   }
 }
@@ -187,7 +177,7 @@ ul {
 #social-menu-primary {
   display: inline-block;
   float: right;
-  margin: 130px 0px 50px 0px;
+  margin: 130px 5px 50px 0px;
 }
 
 @media screen and (max-width:600px) {
@@ -394,29 +384,28 @@ ul {
 }
 
 #contact-me {
-  width: 100%;
+  width: 100vw;
   height: 90vh;
   background-color: #008080;
 }
 
 @media screen and (max-width:600px) {
   #contact-me {
-    width: 100%;
     height: auto;
   }
 }
 
 #form-contact {
+  margin: 0;
+  padding: 0;
   width: 100%;
   font-family: Helvetica;
   font-size: 16px;
-  margin-left: 20px;
 }
 
 @media screen and (max-width:600px) {
   #form-contact {
-    width: 100%;
-    margin-left: 15px;
+    margin-left: 10px;
   }
 }
 
@@ -505,6 +494,8 @@ ul {
 }
 
 #contact-form {
+  margin: 0;
+  padding: 0;
   height: auto;
   width: 50%;
   display: inline-block;
@@ -522,7 +513,7 @@ ul {
 }
 
 #footer-section {
-  width: 100%;
+  width: 100vw;
   height: 10vh;
   background-color: #080808;
   color: #ffffff;
