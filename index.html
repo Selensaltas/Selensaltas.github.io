@@ -8,71 +8,77 @@
     href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAApjkAAEsAkQCqmuUAi1oAACIymAC3u1sAAK/uAHbU+wDEiQAAZSILAHBlFQDLxekAi50eAHFD7AAyJHcA6ePKAACD6QBfUCIARiBmAMy1cgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQUFAAQEBAACAgIAAwMDAAUFBQAEBAQAAgICAAMDAwAAAAAAAAAAAAAAAAAAAAAAAkJCQAGBgYABwcHAAMDAwAJCQkABgYGAAcHBwADAwMAAAAAAAAAAAAAAAAAAAAAAAQEBAANDQ0AERERAA4ODgAEBAQADQ0NABEREQAODg4AAAAAAAAAAAAAAAAAAAAAAAEBAQALCwsABQUFAAICAgABAQEACwsLAAUFBQACAgIAAAAAAAAAAAAAAAAAAAAAAAoKCgASEhIADw8PABMTEwAKCgoAEhISAA8PDwATExMAAAAAAAAAAAAAAAAAAAAAAP//AAAREQAAEREAAP//AAAREQAAEREAAP//AAAREQAAEREAAP//AAAREQAAEREAAP//AAAREQAAEREAAP//AAA="
     rel="icon" type="image/x-icon" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Selen Saltas Portfolio">
   <link rel="stylesheet" type="text/css" href="main.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 
 </head>
 
 <body>
-  <div id="wrapper">
+  <!--HEADER-->
+  <div id="header">
+    <nav id="navbar" class="navbar">
+      <ul id="buttons">
+        <li id="contact" class="nav-li nav-a"><a href="#contact-me">Contact</a></li>
+        <li id="project" class="nav-li nav-a"><a href="#projects">Projects</a></li>
+        <li id="about" class="nav-li nav-a"><a href="#welcome">About</a></li>
 
-    <!--HEADER-->
-    <div id="header">
-        <nav id="navbar" class="navbar">
-          <ul id="buttons">
-            <li id="contact" class="nav-li nav-a"><a href="#contact-me">Contact</a></li>
-            <li id="project" class="nav-li nav-a"><a href="#projects">Projects</a></li>
-            <li id="about" class="nav-li nav-a"><a href="#welcome">About</a></li>
+      </ul>
+    </nav>
+  </div>
 
-          </ul>
-        </nav>
+  <!--WELCOME-->
+  <div id="welcome">
+    <div id="image-me">
+      <img id="me"
+        src="https://lh3.googleusercontent.com/7eCheWg3n62lGSlELVHuhEuW4XJstsOzEzIq8GeCtbylXdWvhdr-xivNd8R-Ickdvc2VoWMPHPtMEuIdYZKbrCiz-mSvXOnXd_tmzfs3RNe2zWqwvwOOm9en5o8SSruwf3cIscCjTw=w2400?source=screenshot.guru"
+        alt="a picture of me" width="250">
     </div>
-
-    <!--WELCOME-->
-    <div id="welcome">
-      <div id="image-me">
-        <img id="me"
-          src="https://lh3.googleusercontent.com/7eCheWg3n62lGSlELVHuhEuW4XJstsOzEzIq8GeCtbylXdWvhdr-xivNd8R-Ickdvc2VoWMPHPtMEuIdYZKbrCiz-mSvXOnXd_tmzfs3RNe2zWqwvwOOm9en5o8SSruwf3cIscCjTw=w2400?source=screenshot.guru"
-          alt="a picture of me" width="250">
-      </div>
-      <div id="title-name">
-        <div id="name-title">
-          <h1 id="myname">Selen Saltas</h1>
-          <h2 id="titlep">Front-end Web Developer and Designer</h2>
-        </div>
-      </div>
-
-
-      <div id="social-menu-primary">
-
-        <a id="github" href="https://github.com/Selensaltas" target="_blank" aria-label="github"
-          class="contact-details"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
-        <a id="mail" href="mailto:selen.saltas@gmail.com" aria-label="emailme" class="contact-details"><i
-            class="fas fa-envelope fa-2x" aria-hidden="true"></i></a>
-        <a id="freecodecamp" href="https://www.freecodecamp.org/fcc431d6fac-60e4-46bd-89b9-04f7983e36b7" target="_blank"
-          aria-label="freecodecamp" class="contact-details"><i class="fab fa-free-code-camp fa-2x"
-            aria-hidden="true"></i></a>
-        <a id="linkedin" href="https://www.linkedin.com/in/selen-saltas-0b775847/" target="_blank" aria-label="linkedin"
-          class="contact-details"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
-
+    <div id="title-name">
+      <div id="name-title">
+        <h1 class="ml11">
+          <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span class="letters">Selen Saltas</span>
+          </span>
+        </h1>
+        <h2 id="titlep">QA | Front-end Web Developer</h2>
       </div>
     </div>
 
-    <!--PROJECTS-->
-    <div id="projects">
-      <h2 class="section-header">Projects</h2>
 
-      <div class="project-container">
-        <div id="htmlEmail" class="project-grid">
-          <a href="/images/BlowLtdEmail.png" target="_blank">
-            <img alt="html email template via HubSpot" class="project-image" id="BlowLtd-html-email-image"
-              src="/images/BlowLtdEmailthumbnail.png" width="100">
-            <div class="project-title">HubSpot Email Template</div>
-          </a>
-        </div>
+    <div id="social-menu-primary">
+
+      <a id="github" href="https://github.com/Selensaltas" target="_blank" aria-label="github"
+        class="contact-details"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
+      <a id="mail" href="mailto:selen.saltas@gmail.com" aria-label="emailme" class="contact-details"><i
+          class="fas fa-envelope fa-2x" aria-hidden="true"></i></a>
+      <a id="freecodecamp" href="https://www.freecodecamp.org/fcc431d6fac-60e4-46bd-89b9-04f7983e36b7" target="_blank"
+        aria-label="freecodecamp" class="contact-details"><i class="fab fa-free-code-camp fa-2x"
+          aria-hidden="true"></i></a>
+      <a id="linkedin" href="https://www.linkedin.com/in/selen-saltas-0b775847/" target="_blank" aria-label="linkedin"
+        class="contact-details"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+
+    </div>
+  </div>
+
+  <!--PROJECTS-->
+  <div id="projects">
+    <h2 class="section-header">Projects</h2>
+
+    <div class="project-container">
+      <div id="htmlEmail" class="project-grid">
+        <a href="/images/BlowLtdEmail.png" target="_blank">
+          <img alt="html email template via HubSpot" class="project-image" id="BlowLtd-html-email-image"
+            src="/images/BlowLtdEmailthumbnail.png" width="100">
+          <div class="project-title">HubSpot Email Template</div>
+        </a>
+      </div>
       <div class="project-container">
         <div id="product-landing-page" class="project-grid">
           <a href="https://codepen.io/selensa/full/ExgrwGE" target="_blank">
@@ -104,7 +110,7 @@
         </div>
       </div>
     </div>
-
+</div>
     <!--CONTACT ME-->
     <div id="contact-me">
       <h2 class="section-header">Contact</h2>
@@ -132,7 +138,6 @@
         &copy; All rights reserved by Selen Saltas
       </footer>
     </div>
-  </div>
 </body>
 
 </html>
